@@ -1,2 +1,2 @@
-# HTML-CSS-Session-6
-HTML-CSS-Session-6
+# HTML-CSS-Sessions
+HTML-CSS-Sessions
