@@ -8,6 +8,7 @@
     <style>
         ul{
             /* padding-left: 5px; */
+            /* background-color: antiquewhite; */
         }
         .item{
             /* list-style-type: georgian; */
@@ -15,10 +16,24 @@
             /* list-style-type: "👌"; */
             list-style-image: url(./img/rocket.png);
         }
-        li::before{
+        li ::before{
             /* content: "\2764";
             color: tomato;
-            padding-right: 10px; */
+            padding-right: 10px;
+            background-color: aquamarine; */
+           
+        }
+        ul li{
+            border: 1px solid gray;
+            border-radius: 25px;
+            width: 15rem;
+            margin: 10px;
+            padding-left: 1rem;
+        }
+        ul li:hover{
+            background-color: lightgreen;
+            color: black;
+            cursor: pointer;
         }
         ol{
             padding: 5px;
@@ -33,7 +48,7 @@
             padding-left: 1rem;
             border-left: 7px solid gray;
             width: 15rem;
-            background-color: rgba(137, 43, 226, 0.479);
+            /* background-color: rgba(137, 43, 226, 0.479); */
             color: black;
         }
 
