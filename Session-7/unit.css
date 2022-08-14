@@ -2,8 +2,11 @@
     margin: 0;
 }
 body{
-    
+    height: 100vh;
+    border: 2px solid red;
+    /* The body browser does not close the entire program by default. Height: 100vh should be used for this..*/
     /* background-color:darksalmon; */
+    
 }
 .abs{
     background-color: aqua;
@@ -12,12 +15,14 @@ body{
 .div2{
     background-color: chocolate;
     width: 50%;
-    height: 80%;
-}
+    height: 70%;
+} 
 .div3{
     background-color: yellow;
-    /* width: 50%; */
-    height: 60vh;
+    width: 50%;
+    height: 30%;
+    height: 80%;
+    /* Since the same feature is used in the same class and the codes are read from top to bottom, it first applies 30% to height, then 80% as above.*/
 }
 .div4{
     background-color: darkmagenta;
