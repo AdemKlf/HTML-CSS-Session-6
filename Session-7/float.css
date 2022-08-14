@@ -1,0 +1,33 @@
+.img-float{
+    width: 30%;
+    float: left;
+   margin-right: 10px;
+   /* margin-left: 20px; */
+}
+.p-class{
+    background-color: coral;
+    text-align: justify;
+}
+.clear{
+    clear: both;
+}
+.box{
+    float: left;
+    font-size: 2rem;
+    
+}
+.box1{
+    background-color: darkcyan;
+    /* float: left; */
+    width: 33.33%;
+}
+.box2{
+    background-color: darkgoldenrod;
+    /* float: left; */
+    width: 33.33%;
+}
+.box3{
+    background-color: darkviolet;
+    /* float: left; */
+    width: 33.33%;
+}
