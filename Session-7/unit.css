@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+html{
+    font-size: 30px;
+}
 body{
     height: 100vh;
     border: 2px solid red;
@@ -29,20 +32,26 @@ body{
     width: 56vw;
 }
 .div5{
-    font-size: 1em;
+    font-size: 1em; /*16 px*/
 }
 .div6{
-    font-size: 2em;
+    font-size: 2em; /*32 px*/
 }
 .div7{
-    font-size: 3em;
+    font-size: 3em; /*96 px* div6* 3*/
 }
 .div8{
-    font-size: 1rem;
+    font-size: 0.5em; /*96 px* div7/0.5  */
 }
 .div9{
-    font-size: 2rem;
+    font-size: 1rem; /*16 px*/
 }
 .div10{
-    font-size: 3rem;
+    font-size: 2rem; /*32 px*/
+}
+.div11{
+    font-size: 3rem; /*96 px* div10* 3*/
+}
+.div12{
+    font-size: 0.5rem; /*96 px* div11/0.5  */
 }
