@@ -44,14 +44,14 @@ body{
     font-size: 0.5em; /*96 px* div7/0.5  */
 }
 .div9{
-    font-size: 1rem; /*16 px*/
+    font-size: 5rem; /*html font-size göre değişir*/
 }
 .div10{
-    font-size: 2rem; /*32 px*/
+    font-size: 2rem; /*html font-size göre değişir*/
 }
 .div11{
-    font-size: 3rem; /*96 px* div10* 3*/
+    font-size: 5rem; /*html font-size göre değişir*/
 }
 .div12{
-    font-size: 0.5rem; /*96 px* div11/0.5  */
+    font-size: 0.5rem; /*html font-size göre değişir*/
 }
