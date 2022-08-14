@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    height: 100vh;
+    
     /* background-color:darksalmon; */
 }
 .abs{
@@ -12,16 +12,16 @@ body{
 .div2{
     background-color: chocolate;
     width: 50%;
-    height: 50%;
+    height: 80%;
 }
 .div3{
     background-color: yellow;
-    width: 50%;
-    height: 50vh;
+    /* width: 50%; */
+    height: 60vh;
 }
 .div4{
     background-color: darkmagenta;
-    width: 50vw;
+    width: 56vw;
 }
 .div5{
     font-size: 1em;
