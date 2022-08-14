@@ -3,7 +3,7 @@
 }
 body{
     height: 100vh;
-    background-color:;
+    /* background-color:darksalmon; */
 }
 .abs{
     background-color: aqua;
@@ -17,9 +17,27 @@ body{
 .div3{
     background-color: yellow;
     width: 50%;
-    height: 60vh;
+    height: 50vh;
 }
 .div4{
     background-color: darkmagenta;
     width: 50vw;
+}
+.div5{
+    font-size: 1em;
+}
+.div6{
+    font-size: 2em;
+}
+.div7{
+    font-size: 3em;
+}
+.div8{
+    font-size: 1rem;
+}
+.div9{
+    font-size: 2rem;
+}
+.div10{
+    font-size: 3rem;
 }
