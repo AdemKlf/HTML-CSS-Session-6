@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .img-float{
     width: 30%;
     float: left;
@@ -19,15 +22,19 @@
 .box1{
     background-color: darkcyan;
     /* float: left; */
-    width: 33.33%;
+    width: 20%;
 }
 .box2{
     background-color: darkgoldenrod;
     /* float: left; */
-    width: 33.33%;
+    width: 30%;
+    /* width: 50%; */
 }
 .box3{
     background-color: darkviolet;
     /* float: left; */
-    width: 33.33%;
+    width: 30%;
+}
+.clear-2{
+    clear: both;
 }
