@@ -1,0 +1,17 @@
+body{
+    /* background-image:url(./img/tree-736885__340.webp);
+    background-repeat: no-repeat; */
+}
+.container{
+    border: 3px solid red;
+    width: 32rem;
+    height: 32rem;
+    background-image: url(./img/tree-736885__340.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    overflow: auto;
+    /* color: lightslategray; */
+    /* opacity: 0.5; */
+}
