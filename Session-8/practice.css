@@ -30,3 +30,17 @@ nav.yatay-menu ul li:hover{
 nav.yatay-menu ul li:hover a{
     color: white;
 }
+nav.acilir-menu{
+    width: 10rem;
+    border: 1px solid red;
+}
+nav.acilir-menu ul{
+    
+    display: none;
+}
+nav.acilir-menu .fa-bars:active{
+    opacity: 0.5;
+}
+nav.acilir-menu:hover ul{
+    display: block;
+}
