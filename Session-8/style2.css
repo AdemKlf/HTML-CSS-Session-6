@@ -1,0 +1,16 @@
+/*COMBINATORS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Descendent Selector*/
+.kutu p {
+    color: red;
+} 
+
+/*Child Selector Parent ı kutu olan tüm p leri seç*/
+.kutu > p {
+    color: green;
+}
