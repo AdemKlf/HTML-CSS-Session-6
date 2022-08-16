@@ -20,7 +20,15 @@ h1 + p {
     color: chocolate ;
 }
 
-/* General Sibling selector*/
+/* General Sibling selector adjacent ile eşit seviyede olduğundan ve de ondan altta geldiğinden ezer*/
 h1 ~ p {
     color: chartreuse;
+}h3{
+    border: 1px solid red;
+    margin: 1rem;
+    outline: 2px solid blue;
+    outline-offset: 1rem;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
 }
