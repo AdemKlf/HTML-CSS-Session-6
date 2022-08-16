@@ -1,0 +1,16 @@
+nav ul li a{
+    color: red;
+}
+nav a{
+    color: green;
+}
+nav .list a{
+    background-color: aqua;
+}
+nav.navbar div a {
+    background-color: blueviolet;
+}  /*burada nav.navbar olması classı navbar olan nav ıbul */
+ /*burada nav .navbar olması navbar içerisnde navbar class olanı bul */
+.navbar p{
+    background-color: blue;
+}
