@@ -1,0 +1,16 @@
+@import "theme.css";
+
+body {
+  font-family: var(--ff-nunito);
+}
+h1 {
+  font-family: var(--ff-sorts);
+  color: var(--koyu-kirmizi);
+}
+div {
+  box-shadow: var(--acik-gogle);
+  width: 50vw;
+  margin: 1rem auto;
+  max-width: 600px;
+  min-width: 400px;
+}

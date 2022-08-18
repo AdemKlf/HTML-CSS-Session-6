@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Audiowide&family=Bowlby+One+SC&family=Lobster&family=Nunito:wght@300;400;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Sorts+Mill+Goudy:ital@1&family=Titan+One&display=swap");
+
+/* font-family: 'Amiri', serif;
+font-family: 'Audiowide', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
+font-family: 'Titan One', cursive; */
+
+:root {
+  --mavi1: hsl(205, 100%, 30%);
+  --mavi2: hsl(205, 100%, 40%);
+  --mavi3: hsl(205, 100%, 50%);
+  --mavi4: hsl(205, 100%, 60%);
+  --mavi5: hsl(205, 100%, 70%);
+
+  /* asil renklerin acik tonları */
+  --mavi-6: hsl(205, 89%, 70%);
+  --mavi-7: hsl(205, 90%, 76%);
+  --mavi-8: hsl(205, 86%, 81%);
+  --mavi-9: hsl(205, 90%, 88%);
+  --mavi-10: hsl(205, 100%, 96%);
+  --mavi-11: hsl(205, 3%, 95%);
+
+  --mor: hsl(276, 85%, 49%);
+
+  --beyaz: #fff;
+  --koyu-kirmizi: hsl(360, 67%, 44%);
+  --acik-kirmizi: hsl(360, 71%, 66%);
+  --koyu-yesil: hsl(125, 67%, 44%);
+  --acik-yesil: hsl(125, 71%, 66%);
+  --siyah: #222;
+
+  /* Color Theme Swatches in Hex */
+  --green1: #465e8c;
+  --green2: #f2e205;
+  --green3: #f2b705;
+  --green4: #f29f05;
+
+  --ff-nunito: "Nunito", sans-serif;
+  --ff-sans: "Open Sans", sans-serif;
+  --ff-sorts: "Sorts Mill Goudy", serif;
+  --ff-family: "Titan One", cursive;
+
+  --koyu-golge: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  --acik-gogle: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
