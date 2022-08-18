@@ -3,6 +3,7 @@
     font-size: 2rem;
     width: 50vw;
     margin: 2rem auto;
+    transition: all 1s;
 }
 /* ROTATE */
 .yazi1{
@@ -43,14 +44,45 @@
     width: 100px;
     height: 50px;
     margin: 10px;
+    transition: background-color 1s, transform 1s;
+    
 }
+.x{
+    transition: transform 1s;
+}
+/* .x:active{
+    transform: scale(50%);
+} */
 .x:hover {
-    transform: translateX(50px);
+    transform: translateX(50px) scale(90%);
+    background-color: greenyellow;
+    
+
 }
 .y:active {
     transform: translateY(-50px);
+    background-color: aqua;
+    
 
 }
 .xy:active {
     transform: translate(50px, 50px);
+    background-color: chocolate;
+}
+.btn{
+    padding: 1rem;
+    width: 6rem;
+    background-color: goldenrod;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: background-color 0.5s, color 0.5s;
+    font-weight: 800;
+}
+.btn:hover{
+    background-color: rgb(92, 82, 30);
+    color: white;
+}
+.btn:active{
+    transform: scale(98%);
 }
