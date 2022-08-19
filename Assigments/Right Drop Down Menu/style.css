@@ -1,0 +1,6 @@
+nav.acilir-menu div {
+  display: none;
+}
+nav.acilir-menu:hover div {
+  display: block;
+}
