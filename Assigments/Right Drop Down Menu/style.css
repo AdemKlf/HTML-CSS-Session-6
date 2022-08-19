@@ -1,6 +1,57 @@
-nav.acilir-menu div {
+.div-ilk {
+  border: 2px solid lightgray;
+  display: inline-flex;
+  margin-left: 2rem;
+  padding-right: 3rem;
+  width: 12rem;
+  padding-top: 0;
+}
+.fa-chevron-right {
+  height: 1.75rem;
+  width: 2.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bolder;
+}
+.fadiv2 {
+  background-color: darkgoldenrod;
+  height: 8rem;
+}
+.fadiv {
+  display: inline-table;
+  background-color: rgb(126, 94, 15);
+}
+div.div-ilk ul {
   display: none;
 }
-nav.acilir-menu:hover div {
+div.div-ilk:hover ul.ul-class {
   display: block;
+  background-color: darkgoldenrod;
+  width: 10rem;
+  /* height: 8rem; */
+  padding-bottom: 3.4rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0.5px;
+  padding-left: 0;
+  transition: all 1s;
+}
+div.div-ilk:hover .fa-chevron-right {
+  transform: translateX(10rem) rotateY(180deg);
+}
+div.div-ilk .ul-class .ul1 {
+  display: block;
+  height: 1.75rem;
+}
+
+.ul-class {
+  list-style-type: none;
+}
+.ul1 {
+  background-color: rgb(126, 94, 15);
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: -2rem;
+  text-align: center;
 }
