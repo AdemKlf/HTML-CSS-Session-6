@@ -18,14 +18,47 @@
   height: 5rem;
   margin: 1rem;
 }
-
+/* DİKEY HİZLAMA ORNEGİ*/
 .container1 {
   height: 20rem;
   background-color: greenyellow;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px 10px;
+  padding: 0.5rem;
+  overflow: auto;
+  justify-content: center;
+  /* align-items: center; */
+
+  align-content: flex-end;
 }
 
 .container1 div {
   height: 5rem;
+  width: 5rem;
   background-color: tomato;
+}
+
+/**FLEX-GROW*/
+.container2 {
+  background-color: hotpink;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.container2 div {
+  background-color: khaki;
+  /* width: 5rem; */
+  flex-grow: 1;
+}
+div.grow2 {
+  flex-grow: 2;
+}
+div.grow3 {
+  flex-grow: 3;
+}
+div.nogrow {
+  flex-grow: 0;
 }
