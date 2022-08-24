@@ -71,12 +71,14 @@
 }
 .banner {
   background-color: aqua;
-  padding: 2rem;
+  padding: 4rem;
 }
 .section1 {
   background-color: chartreuse;
   flex-wrap: nowrap;
-  padding: 9rem;
+
+  height: 53vh;
+  overflow: hidden;
 }
 .section2 {
   background-color: coral;
