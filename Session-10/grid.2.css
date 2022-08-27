@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 25vh repeat(3, calc(25vh - 0.5rem));
+}
+.content {
+  background-color: lightcyan;
+  border: 1px solid red;
+}
+.c6 {
+  /*ıtem ları bireysel olarak yatay düzlemde hizalar*/
+  justify-self: center;
+}
+.c11 {
+  /*ıtem ları bireysel olarak dikey düzlemde hizalar*/
+  align-self: center;
+}
