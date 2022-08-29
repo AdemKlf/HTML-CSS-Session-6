@@ -1,13 +1,36 @@
 * {
   margin: 1rem;
   box-sizing: border-box;
+  text-align: center;
 }
 .container {
   display: grid;
+
+  /*! Sırasıyla 200px, 40vw ve 20rem lik 3 adet sütun tanımlama*/
   grid-template-columns: 200px 40vw 20rem;
-  grid-template-rows: 100px 500px 20vh 4rem;
+
+  /*!Sırasıyla 100px, 200px, 20vh ve 4rem lik yüksekliğiğe sahip 4 adet satır tanımlama (4x3 Grid */
+  grid-template-rows: 100px 200px 20vh 4rem;
+
+  /*!Grid Seviyesinde Hizalama */
+  justify-content: center;
+
+  /*!Tüm gridleri kendi alanlarina gore dikey olarak hizalar ve center ile otomatik yüksiklik alır */
+  /* align-items: stretch; */
 }
 .content {
   background-color: wheat;
   border: 2px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content7 {
+  background-image: url(https://cdn.pixabay.com/photo/2022/08/17/08/58/sun-has-7391959__340.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.content5 {
+  background-color: cadetblue;
 }
